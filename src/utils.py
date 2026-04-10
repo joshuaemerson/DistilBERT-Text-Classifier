@@ -18,6 +18,6 @@ NUM_CLASSES = len(EMOTION_LABELS)
 
 # Training defaults (overridden by Optuna inside train.py)
 DEFAULT_BATCH_SIZE = 32
-MAX_TOKEN_LENGTH   = 128    # tweets are short; 128 is plenty
-RANDOM_SEED        = 42
-TRAIN_SPLIT        = 0.8
+MAX_TOKEN_LENGTH = 128  # tweets are short; 128 is plenty
+RANDOM_SEED = 42
+TRAIN_SPLIT = 0.8
